@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "o7+okk2TRGaoJG8jfrskvxTTrCTCy+AZ8b4ulJwZ6P8=",
+  "Source": "UI.ApiLogin",
+  "BasePath": "_content/UI.ApiLogin",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

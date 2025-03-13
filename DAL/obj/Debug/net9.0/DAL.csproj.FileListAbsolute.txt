@@ -1,0 +1,11 @@
+C:\proyectos\ApiLogin\DAL\bin\Debug\net9.0\DAL.deps.json
+C:\proyectos\ApiLogin\DAL\bin\Debug\net9.0\DAL.dll
+C:\proyectos\ApiLogin\DAL\bin\Debug\net9.0\DAL.pdb
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\DAL.dll
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\refint\DAL.dll
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\DAL.pdb
+C:\proyectos\ApiLogin\DAL\obj\Debug\net9.0\ref\DAL.dll

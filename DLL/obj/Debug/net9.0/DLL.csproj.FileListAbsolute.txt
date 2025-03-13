@@ -1,0 +1,11 @@
+C:\proyectos\ApiLogin\DLL\bin\Debug\net9.0\DLL.deps.json
+C:\proyectos\ApiLogin\DLL\bin\Debug\net9.0\DLL.dll
+C:\proyectos\ApiLogin\DLL\bin\Debug\net9.0\DLL.pdb
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\DLL.AssemblyInfoInputs.cache
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\DLL.AssemblyInfo.cs
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\DLL.csproj.CoreCompileInputs.cache
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\DLL.dll
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\refint\DLL.dll
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\DLL.pdb
+C:\proyectos\ApiLogin\DLL\obj\Debug\net9.0\ref\DLL.dll
