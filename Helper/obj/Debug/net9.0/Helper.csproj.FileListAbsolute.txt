@@ -1,10 +1,15 @@
 C:\proyectos\ApiLogin\Helper\bin\Debug\net9.0\Helper.deps.json
 C:\proyectos\ApiLogin\Helper\bin\Debug\net9.0\Helper.dll
 C:\proyectos\ApiLogin\Helper\bin\Debug\net9.0\Helper.pdb
+C:\proyectos\ApiLogin\Helper\bin\Debug\net9.0\DAL.dll
+C:\proyectos\ApiLogin\Helper\bin\Debug\net9.0\DAL.pdb
+C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.csproj.AssemblyReference.cache
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.GeneratedMSBuildEditorConfig.editorconfig
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.AssemblyInfoInputs.cache
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.AssemblyInfo.cs
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.csproj.CoreCompileInputs.cache
+C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.sourcelink.json
+C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.csproj.Up2Date
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.dll
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\refint\Helper.dll
 C:\proyectos\ApiLogin\Helper\obj\Debug\net9.0\Helper.pdb

@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\proyectos\\ApiLogin\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3496772-191A-4A21-AA16-679566FF0F66}|BLL\\BLL.csproj|c:\\proyectos\\apilogin\\bll\\login\\imp\\loginimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3496772-191A-4A21-AA16-679566FF0F66}|BLL\\BLL.csproj|solutionrelative:bll\\login\\imp\\loginimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E711DB2-E1AE-475D-B860-645E19B08DDF}|ApiLogin\\UI.ApiLogin.csproj|c:\\proyectos\\apilogin\\apilogin\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E711DB2-E1AE-475D-B860-645E19B08DDF}|ApiLogin\\UI.ApiLogin.csproj|solutionrelative:apilogin\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF4EAF53-264C-4363-B590-DD59DD35979D}|DAL\\DAL.csproj|c:\\proyectos\\apilogin\\dal\\dbaccess\\models\\dbaccesscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF4EAF53-264C-4363-B590-DD59DD35979D}|DAL\\DAL.csproj|solutionrelative:dal\\dbaccess\\models\\dbaccesscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E711DB2-E1AE-475D-B860-645E19B08DDF}|ApiLogin\\UI.ApiLogin.csproj|c:\\proyectos\\apilogin\\apilogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E711DB2-E1AE-475D-B860-645E19B08DDF}|ApiLogin\\UI.ApiLogin.csproj|solutionrelative:apilogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbaccessContext.cs",
+              "DocumentMoniker": "C:\\proyectos\\ApiLogin\\DAL\\DBAccess\\Models\\DbaccessContext.cs",
+              "RelativeDocumentMoniker": "DAL\\DBAccess\\Models\\DbaccessContext.cs",
+              "ToolTip": "C:\\proyectos\\ApiLogin\\DAL\\DBAccess\\Models\\DbaccessContext.cs",
+              "RelativeToolTip": "DAL\\DBAccess\\Models\\DbaccessContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:51:38.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\proyectos\\ApiLogin\\ApiLogin\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "ApiLogin\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\proyectos\\ApiLogin\\ApiLogin\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "ApiLogin\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:34:23.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginImp.cs",
+              "DocumentMoniker": "C:\\proyectos\\ApiLogin\\BLL\\Login\\IMP\\LoginImp.cs",
+              "RelativeDocumentMoniker": "BLL\\Login\\IMP\\LoginImp.cs",
+              "ToolTip": "C:\\proyectos\\ApiLogin\\BLL\\Login\\IMP\\LoginImp.cs",
+              "RelativeToolTip": "BLL\\Login\\IMP\\LoginImp.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwEYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:33:20.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\proyectos\\ApiLogin\\ApiLogin\\Program.cs",
+              "RelativeDocumentMoniker": "ApiLogin\\Program.cs",
+              "ToolTip": "C:\\proyectos\\ApiLogin\\ApiLogin\\Program.cs",
+              "RelativeToolTip": "ApiLogin\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv0IAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:55:25.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

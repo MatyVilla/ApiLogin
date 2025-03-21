@@ -5,6 +5,7 @@ C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.GeneratedMSBuildEditorConfig.edit
 C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.AssemblyInfoInputs.cache
 C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.AssemblyInfo.cs
 C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.csproj.CoreCompileInputs.cache
+C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.sourcelink.json
 C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.dll
 C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\refint\BOL.dll
 C:\proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.pdb
