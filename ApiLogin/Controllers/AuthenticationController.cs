@@ -4,6 +4,7 @@ using BOL.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace UI.ApiLogin.Controllers
 {
@@ -24,12 +25,21 @@ namespace UI.ApiLogin.Controllers
         [Route("Login")]
         public async Task<IActionResult> Login(LoginInputDTO loginInput)
         {
-            string jwt = await _iLogin.Login(loginInput);
-            if (jwt == null)
+            try
             {
-                return StatusCode(StatusCodes.Status403Forbidden);
+                string? jwt = await _iLogin.Login(loginInput);
+                if (jwt == null)
+                {
+                    return StatusCode(StatusCodes.Status403Forbidden);
+                }
+                return StatusCode(StatusCodes.Status200OK, new { token = jwt });
             }
-            return StatusCode(StatusCodes.Status200OK, new { token = jwt });
+            catch (Exception e)
+            {
+                Log.Error($"Error Login[01]:{e}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+
         }
 
         [AllowAnonymous]
@@ -37,14 +47,21 @@ namespace UI.ApiLogin.Controllers
         [Route("Register")]
         public async Task<IActionResult> Register(UserInputDTO userInput)
         {
-
-            UserOutputDTO user = await _iLogin.Register(userInput);
-
-            if (user == null)
+            try
             {
-                return StatusCode(StatusCodes.Status400BadRequest);
+                UserOutputDTO? user = await _iLogin.Register(userInput);
+
+                if (user == null)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest);
+                }
+                return StatusCode(StatusCodes.Status200OK, new { user });
             }
-            return StatusCode(StatusCodes.Status200OK, new { user });
+            catch (Exception e)
+            {
+                Log.Error($"Error register[01]{e}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
 
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PkZ4TIGXNTI=",
+  "dgSpecHash": "03NzNJZ/eog=",
   "success": true,
-  "projectFilePath": "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

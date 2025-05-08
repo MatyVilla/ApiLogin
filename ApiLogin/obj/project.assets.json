@@ -5504,11 +5504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyectos\\ApiLogin\\ApiLogin\\UI.ApiLogin.csproj",
+      "projectUniqueName": "D:\\Proyectos\\ApiLogin\\ApiLogin\\UI.ApiLogin.csproj",
       "projectName": "UI.ApiLogin",
-      "projectPath": "C:\\proyectos\\ApiLogin\\ApiLogin\\UI.ApiLogin.csproj",
+      "projectPath": "D:\\Proyectos\\ApiLogin\\ApiLogin\\UI.ApiLogin.csproj",
       "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-      "outputPath": "C:\\proyectos\\ApiLogin\\ApiLogin\\obj\\",
+      "outputPath": "D:\\Proyectos\\ApiLogin\\ApiLogin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5529,17 +5529,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\proyectos\\ApiLogin\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\proyectos\\ApiLogin\\BLL\\BLL.csproj"
+            "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj"
             },
-            "C:\\proyectos\\ApiLogin\\BOL\\BOL.csproj": {
-              "projectPath": "C:\\proyectos\\ApiLogin\\BOL\\BOL.csproj"
+            "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj": {
+              "projectPath": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj"
             },
-            "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj"
+            "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj"
             },
-            "C:\\proyectos\\ApiLogin\\Helper\\Helper.csproj": {
-              "projectPath": "C:\\proyectos\\ApiLogin\\Helper\\Helper.csproj"
+            "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj": {
+              "projectPath": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj"
             }
           }
         }

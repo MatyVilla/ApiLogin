@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\proyectos\\ApiLogin\\Helper\\Helper.csproj": {}
+    "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj": {}
   },
   "projects": {
-    "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj": {
+    "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectos\\ApiLogin\\DAL\\obj\\",
+        "outputPath": "D:\\Proyectos\\ApiLogin\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\proyectos\\ApiLogin\\Helper\\Helper.csproj": {
+    "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectos\\ApiLogin\\Helper\\Helper.csproj",
+        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "C:\\proyectos\\ApiLogin\\Helper\\Helper.csproj",
+        "projectPath": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectos\\ApiLogin\\Helper\\obj\\",
+        "outputPath": "D:\\Proyectos\\ApiLogin\\Helper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\proyectos\\ApiLogin\\DAL\\DAL.csproj"
+              "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj"
               }
             }
           }

@@ -3,6 +3,7 @@ using BOL.User;
 using DAL.DBAccess.Models;
 using Helper.Custom;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,57 +40,60 @@ namespace BLL.Login.IMP
             }
             catch (Exception e)
             {
-
-                throw;
+                Log.Error($"Error Login[02]: {e}");
+                throw new Exception(e.Message);
             }
         }
 
-        public async Task<UserOutputDTO> Register(UserInputDTO userInput)
+        public async Task<UserOutputDTO?> Register(UserInputDTO userInput)
         {
             try
             {
+                //Validar si el usuario ya se encuentra registrado en db
                 User? user = await _dbaccessContext.Users.Where(u => u.Rut == userInput.Rut)
                                                               .Include(u => u.Role)
                                                               .FirstOrDefaultAsync();
-                UserOutputDTO userOutput = new UserOutputDTO();
+                UserOutputDTO userOutput = new();
                 if (user != null)
                 {
-                    userOutput = this.MapingUserRegister(user, "Error", "Usuario ya se encuentra registrado");
+                    userOutput = MapingUserRegister(user, "Error", "Usuario ya se encuentra registrado");
                     return userOutput;
                 }
-
-                User createUser = new User();
-                createUser.Email = userInput.Email;
-                createUser.Name = userInput.Name;
-                createUser.Password = userInput.Password;
-                createUser.Rut = userInput.Rut;
-                createUser.Phone = userInput.Phone;
-                createUser.RoleId = userInput.IdRole;
-
+                //Crear entidad para ser guardada en db
+                User createUser = new()
+                {
+                    Email = userInput.Email,
+                    Name = userInput.Name,
+                    Password = userInput.Password,
+                    Rut = userInput.Rut,
+                    Phone = userInput.Phone,
+                    RoleId = userInput.IdRole
+                };
+                //Crear usuario en db
                 await _dbaccessContext.Users.AddAsync(createUser);
                 int result = await _dbaccessContext.SaveChangesAsync();
-
+                //Validamos si se pudo guardar el registro
                 if (result == 0)
                 {
-                    userOutput = this.MapingUserRegister(createUser,"Error", "Error al crear el usuario");
+                    userOutput = MapingUserRegister(createUser, "Error", "Error al crear el usuario");
                     return userOutput;
                 }
-
+                //Validamos que el usuario exista en bd
                 user = await _dbaccessContext.Users.Where(u => u.Rut == userInput.Rut)
                                                               .Include(u => u.Role)
                                                               .FirstOrDefaultAsync();
 
-                userOutput = this.MapingUserRegister(user, "OK", "Usuario registrado exitosamente");
+                userOutput = MapingUserRegister(user, "OK", "Usuario registrado exitosamente");
 
                 return userOutput;
             }
             catch (Exception e)
             {
-
-                throw;
+                Log.Error($"Error register[02]: {e}");
+                throw new Exception(e.Message);
             }
         }
-        private UserOutputDTO MapingUserRegister(User user,string status, string message)
+        private static UserOutputDTO MapingUserRegister(User user, string status, string message)
         {
             UserOutputDTO userOutput = new UserOutputDTO();
             userOutput.Rut = user.Rut;

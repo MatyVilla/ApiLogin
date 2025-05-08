@@ -11,6 +11,6 @@ namespace BLL.Login
     public interface ILogin
     {
         Task<string?> Login(LoginInputDTO loginInput);
-        Task<UserOutputDTO> Register(UserInputDTO userInput);
+        Task<UserOutputDTO?> Register(UserInputDTO userInput);
     }
 }
