@@ -3419,11 +3419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Proyecto\\ApiLogin\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Proyecto\\ApiLogin\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\ApiLogin\\BLL\\obj\\",
+      "outputPath": "C:\\Proyecto\\ApiLogin\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3444,14 +3444,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj": {
-              "projectPath": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj"
+            "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj": {
+              "projectPath": "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj"
             },
-            "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj"
+            "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj"
             },
-            "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj": {
-              "projectPath": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj"
+            "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj": {
+              "projectPath": "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj"
             }
           }
         }
@@ -3487,7 +3487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

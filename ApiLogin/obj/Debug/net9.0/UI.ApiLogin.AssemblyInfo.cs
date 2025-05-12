@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UI.ApiLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b79ae2a1da196ce65fd6540f94dfb84094118bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26164c42631d2deedcc860b33667d803a57cd804")]
 [assembly: System.Reflection.AssemblyProductAttribute("UI.ApiLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UI.ApiLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

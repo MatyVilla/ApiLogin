@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj": {}
+    "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj": {
+    "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj",
+        "projectPath": "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ApiLogin\\BOL\\obj\\",
+        "outputPath": "C:\\Proyecto\\ApiLogin\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

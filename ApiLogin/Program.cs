@@ -1,3 +1,5 @@
+using BLL.Interface;
+using BLL.Interface.IMP;
 using BLL.Login;
 using BLL.Login.IMP;
 using DAL.DBAccess.Models;
@@ -67,7 +69,7 @@ builder.Services.AddDbContext<DbaccessContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SQL"));
 });
 
-builder.Services.AddSingleton<Utilities>();
+//builder.Services.AddSingleton<Utilities>();
 
 builder.Services.AddAuthentication(config =>
 {
@@ -90,6 +92,8 @@ builder.Services.AddAuthentication(config =>
 
 //Inyeccion
 builder.Services.AddScoped<ILogin, LoginImp>();
+builder.Services.AddScoped<IUser, UserIMP>();
+builder.Services.AddScoped<Utilities>();
 
 var app = builder.Build();
 

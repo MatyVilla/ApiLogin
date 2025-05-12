@@ -1,0 +1,6 @@
+2025-05-11 19:18:05.673 -04:00 [ERR] Error Login[02]: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Helper.Custom.Utilities.createJWT(User user) in C:\Proyecto\ApiLogin\Helper\Custom\Utilities.cs:line 51
+   at BLL.Login.IMP.LoginImp.Login(LoginInputDTO loginInput) in C:\Proyecto\ApiLogin\BLL\Login\IMP\LoginImp.cs:line 37
+2025-05-11 19:18:05.729 -04:00 [ERR] Error Login[01]:System.Exception: Object reference not set to an instance of an object.
+   at BLL.Login.IMP.LoginImp.Login(LoginInputDTO loginInput) in C:\Proyecto\ApiLogin\BLL\Login\IMP\LoginImp.cs:line 44
+   at UI.ApiLogin.Controllers.AuthenticationController.Login(LoginInputDTO loginInput) in C:\Proyecto\ApiLogin\ApiLogin\Controllers\AuthenticationController.cs:line 29

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rkrQ1tMpx6Q=",
+  "dgSpecHash": "Qs4QDiKIOLA=",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj",
+  "projectFilePath": "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\matia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

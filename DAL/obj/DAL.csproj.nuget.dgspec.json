@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {}
+    "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
+    "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ApiLogin\\DAL\\obj\\",
+        "outputPath": "C:\\Proyecto\\ApiLogin\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

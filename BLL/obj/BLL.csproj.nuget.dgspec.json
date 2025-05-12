@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj": {}
+    "C:\\Proyecto\\ApiLogin\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj": {
+    "C:\\Proyecto\\ApiLogin\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Proyecto\\ApiLogin\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Proyectos\\ApiLogin\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Proyecto\\ApiLogin\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ApiLogin\\BLL\\obj\\",
+        "outputPath": "C:\\Proyecto\\ApiLogin\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj"
+              "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj"
               },
-              "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj"
+              "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj"
               },
-              "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj": {
-                "projectPath": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj"
+              "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj": {
+                "projectPath": "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj"
               }
             }
           }
@@ -75,18 +75,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj": {
+    "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "D:\\Proyectos\\ApiLogin\\BOL\\BOL.csproj",
+        "projectPath": "C:\\Proyecto\\ApiLogin\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ApiLogin\\BOL\\obj\\",
+        "outputPath": "C:\\Proyecto\\ApiLogin\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,18 +140,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
+    "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ApiLogin\\DAL\\obj\\",
+        "outputPath": "C:\\Proyecto\\ApiLogin\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -221,18 +221,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj": {
+    "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj",
+        "projectUniqueName": "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj",
         "projectName": "Helper",
-        "projectPath": "D:\\Proyectos\\ApiLogin\\Helper\\Helper.csproj",
+        "projectPath": "C:\\Proyecto\\ApiLogin\\Helper\\Helper.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\ApiLogin\\Helper\\obj\\",
+        "outputPath": "C:\\Proyecto\\ApiLogin\\Helper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -253,8 +253,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Proyectos\\ApiLogin\\DAL\\DAL.csproj"
+              "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Proyecto\\ApiLogin\\DAL\\DAL.csproj"
               }
             }
           }
@@ -290,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

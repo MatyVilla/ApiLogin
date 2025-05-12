@@ -22,3 +22,15 @@ D:\Proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.dll
 D:\Proyectos\ApiLogin\BOL\obj\Debug\net9.0\refint\BOL.dll
 D:\Proyectos\ApiLogin\BOL\obj\Debug\net9.0\BOL.pdb
 D:\Proyectos\ApiLogin\BOL\obj\Debug\net9.0\ref\BOL.dll
+C:\Proyecto\ApiLogin\BOL\bin\Debug\net9.0\BOL.deps.json
+C:\Proyecto\ApiLogin\BOL\bin\Debug\net9.0\BOL.dll
+C:\Proyecto\ApiLogin\BOL\bin\Debug\net9.0\BOL.pdb
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.AssemblyInfoInputs.cache
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.AssemblyInfo.cs
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.csproj.CoreCompileInputs.cache
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.sourcelink.json
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.dll
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\refint\BOL.dll
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\BOL.pdb
+C:\Proyecto\ApiLogin\BOL\obj\Debug\net9.0\ref\BOL.dll

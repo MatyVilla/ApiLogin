@@ -28,6 +28,7 @@ namespace BLL.Login.IMP
             {
                 User? user = await _dbaccessContext.Users.Where(u => u.Rut == loginInput.Rut
                                                               && u.Password == _utilities.encryptedSHA256(loginInput.Password))
+                                                              .Include(r => r.Role)
                                                               .FirstOrDefaultAsync();
                 if (user == null)
                 {
@@ -64,7 +65,7 @@ namespace BLL.Login.IMP
                 {
                     Email = userInput.Email,
                     Name = userInput.Name,
-                    Password = userInput.Password,
+                    Password = _utilities.encryptedSHA256(userInput.Password),
                     Rut = userInput.Rut,
                     Phone = userInput.Phone,
                     RoleId = userInput.IdRole
